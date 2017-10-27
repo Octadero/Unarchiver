@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "Unarchiver", targets: ["Unarchiver"])
     ],
     dependencies: [
-        .package(url: "git@github.com:Octadero/CZlib.git", from: "0.0.5")
+        .package(url: "https://github.com/Octadero/CZlib.git", from: "0.0.5")
     ],
     targets: [
         .target(name: "Unarchiver", dependencies: []),
